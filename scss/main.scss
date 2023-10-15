@@ -382,6 +382,48 @@ a:hover {
 //   }
 // }
 
+.click01 {
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+  display: block;
+  width: 14vw;
+  height: 14vw;
+  max-width: 260px;
+  max-height: 260px;
+  cursor: pointer;
+  z-index: 3;
+  &:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.click02 {
+  position: absolute;
+  right: 15%;
+  bottom: 85%;
+  display: block;
+  width: 16vw;
+  height: 16vw;
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
+  z-index: 3;
+  &:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /*----------------------------------------------------------------
 
 フォント読み込み

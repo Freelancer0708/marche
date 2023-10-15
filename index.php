@@ -29,6 +29,8 @@ get_header(); ?>
                         brings you full of Happiness！
                     </h2>
                 </article>
+
+                <a target="_blank" href="https://www.courier-tokyo.com/marche/online-marche/" class="click01"><img src="<?php echo get_template_directory_uri(); ?>/img/top/click01.png" alt=""></a>
             </div>
         </section>
 
@@ -96,6 +98,7 @@ get_header(); ?>
                             <p class="f_16 ls_100 f_lato fw-bold gray mr10">READ MORE</p>
                             <span class=""></span>
                         </a>
+                        <a target="_blank" href="https://www.courier-tokyo.com/marche/real-marche/" class="click02"><img src="<?php echo get_template_directory_uri(); ?>/img/top/click02.png" alt=""></a>
                         <!-- <a class="cmn-btn  d-flex justify-content-center align-items-center align-self-end mt60">
                             <p class="f_16 ls_100 f_lato fw-bold gray mr10">COMING SOON</p>
                             <span class=""></span>
@@ -491,7 +494,7 @@ foreach ( $custom_posts as $post ): setup_postdata($post); ?>
                             私たちのマルシェを、一緒に楽しんで盛り上げてくださるという方は、ぜひ一度お問い合わせください。
                         </p>
                         <p class="cnt03-sub f_40 ls_100 f_lato gray">PARTNERSHIP</p>
-                        <a href="<?php echo home_url(); ?>/contact/" class="cmn-btn  d-flex justify-content-center align-items-center align-self-end mt60">
+                        <a target="_blank" href="https://www.courier-tokyo.com/marche/partnership/" class="cmn-btn  d-flex justify-content-center align-items-center align-self-end mt60">
                             <p class="f_16 ls_100 f_lato fw-bold gray mr10">READ MORE</p>
                             <span class=""></span>
                         </a>
